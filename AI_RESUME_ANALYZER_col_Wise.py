@@ -6,7 +6,7 @@ from pypdf import PdfReader
 load_dotenv()
 OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 client=OpenAI()
-st.set_page_config(page_title="Pdf based Q and A App",layout="wide")
+st.set_page_config(page_title="AI Based Resume Analyzer",layout="wide")
 
 # with st.sidebar:
 #    st.title("📊 ResumeMetric AI")
